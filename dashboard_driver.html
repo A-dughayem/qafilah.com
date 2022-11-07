@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>remove a Driver - Qafilah</title>
+    <title>My Dashboard - Qafilah</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
@@ -21,26 +20,35 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-   
-    <section id="services">
+    <section class="bg-light" id="portfolio">
         <div class="container">
-            <div class="row">
-                 <h1>Remove a Driver</h1>
-                <form action="http://localhost:3000/removeDriver" method="post">
-
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Khalid Ali" name="name">
-                      </div>
-
-                    <button type="submit" class="btn btn-primary">remove</button>
-                  </form>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="http://localhost:3000/driversDetails" data-bs-toggle="modal">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+            </div><img class="img-fluid" src="assets/img/portfolio/myinfo.jpeg">
+        </a>
+        <div class="portfolio-caption">
+            <h4>My info</h4>
+            <p class="text-muted"></p>
+        </div>
+    </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="Track.html" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/packages.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Track Shipments</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+    
             </div>
         </div>
     </section>
@@ -49,10 +57,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
