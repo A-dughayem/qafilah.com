@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Track - Qafilah</title>
+    <title>Trip to Driver - Qafilah</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
@@ -20,25 +20,28 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Team</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    
     <section id="services">
         <div class="container">
             <div class="row">
-                <h1>Track a Trip</h1>
-                <form action="http://localhost:3000/track" method="post">
+
+                 <h1>Assign a Driver to a Trip</h1>
+                <form action="http://localhost:3000/TripToDriver" method="post">
 
                     <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">ID of the Driver:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="10000" name="name">
+                      </div>
+                      <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Trip ID</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="123456" name="name">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="123456" name="trip">
                       </div>
 
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary">Assign</button>
                   </form>
             </div>
         </div>
@@ -48,3 +51,10 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
